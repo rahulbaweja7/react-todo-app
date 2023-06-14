@@ -32,11 +32,7 @@ const SingleTodo: React.FC<{
     const requestOptions = {
       method: "PUT",
       headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,OPTIONS",
-        "Access-Control-Allow-Headers":
-          "X-Requested-With,Content-Type,Cache-Control,access_token",
+        "Content-Type": "application/json"
       },
       
       body: JSON.stringify({
