@@ -11,7 +11,6 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }: Props) => {
 
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pageNumbers.push(i);
-    // console.log("RAHUL IS THE BEST")
   }
 
   return (
